@@ -1,0 +1,223 @@
+<resources>
+    <string name="app_name">Unite</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="copyright_scribe">© Unite</string>
+    <string name="login_with_facebook">Login With Facebook</string>
+    <string name="login_with_google">Login With Google</string>
+    <string name="sign_up_fail">Please check your Internet Connection</string>
+    <string name="try_again">Try Again</string>
+    <string name="facebook_app_id">1214501378612655</string>
+    <string name="fb_login_protocol_scheme">fb1214501378612655</string>
+    <string name="google_sign_in_fail">Google Sign In Failed. Invalid Credentials</string>
+    <string name="onboarding_pager_icon_shape">onboarding pager icon shape</string>
+    <string name="onboarding_pager_icon_image">onboarding pager icon image</string>
+    <string name="content_title">Content title</string>
+    <string name="content_text">Content text</string>
+    <string name="camera_permission_confirmation">The application requires access to your camera to take pictures</string>
+    <string name="camera_permission_not_granted">We require your camera to provide a transcendent experience within the app. Jus taking a pic</string>
+    <string name="name">Name</string>
+    <string name="read_permission_not_granted">We require your pictures to provide a transcendent experience within the app. Jus a pic.</string>
+    <string name="read_permission_confirmation">The application requires access to your external storage to select pictures</string>
+    <string name="access_denied_to_storage">You denied the app access to your pictures.</string>
+    <string name="no_pic_chosen">You did not choose a picture</string>
+    <string name="could_not_load_image">Could not load the selected image</string>
+    <string name="could_not_upload_image">Image Upload Failed. Please check your internet connection</string>
+    <string name="sms_permission_confirmation">This will simplify your SMS verification process</string>
+    <string name="sms_permission_not_granted">Please allow the application to automatically read and verify your code through SMS</string>
+    <string name="sms_verification_prompt">Unite will send an SMS message to verify your phone number. Please enter your phone number and country code.</string>
+    <string name="contact_permission_not_granted">Unite requires access to your contacts for the app\'s core functions.</string>
+    <string name="contact_verification_prompt">Unite will read your contacts only for \'Note Sharing\' and \'Live Sessions\'. We respect your privacy.</string>
+    <string name="phn_hint_prompt">Phone Number without Country Code</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="verify_phn">Verify your Phone Number</string>
+    <array name="countries">
+        <item>Please Select your Country</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Angola</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Brazil</item>
+        <item>Bulgaria</item>
+        <item>Burkina</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Croatia</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Denmark</item>
+        <item>Dominican Republic</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Estonia</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Gabon</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Greece</item>
+        <item>Guatemala</item>
+        <item>Guinea-Bissau</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Ivory Coast</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macedonia</item>
+        <item>Malaysia</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Mauritius</item>
+        <item>Mexico</item>
+        <item>Moldova</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Namibia</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>Netherlands Antilles</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Qatar</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>South Africa</item>
+        <item>South Korea</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Togo</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+
+    </array>
+    <string name="title_activity_mi">MIActivity</string>
+    <string name="onboard_one_title">Productivity on the Go</string>
+    <string name="onboard_one_desc">Your thoughts are super important.Never let them get away. Jot them down with Unite notes or create notebooks with multimedia assets.</string>
+    <string name="onboard_two_title">Achieve More</string>
+    <string name="onboard_two_desc">Set targets and reminders for your projects and to-do lists for anything you want to do.</string>
+    <string name="onboard_three_title">Share your thoughts</string>
+    <string name="onboard_three_desc">Share your notes, to-do lists, notebooks, reminders to all those who matter to you</string>
+    <string name="onboard_four_title">Friends and Family</string>
+    <string name="onboard_four_desc">Unite provides an intuitive chat experience so that you can chat with your friends and family by drawing on pictures and sending them notes.</string>
+    <string name="onboard_five_title">Live Sessions</string>
+    <string name="onboard_five_desc">This all new, exclusive feature allows users to call each other within the app while jotting down their thoughts on a shared canvas.</string>
+    <string name="onboard_six_title">Shared Canvas</string>
+    <string name="onboard_six_desc">The canvas can be saved as a note after a live session is complete and also provides tons of customisation including images, shapes, text and paint.</string>
+    <string name="live_session">Live Session</string>
+    <string name="picture">Picture</string>
+    <string name="to_do">To-Do</string>
+    <string name="note">Note</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="home">Home</string>
+    <string name="notes">Notes</string>
+    <string name="notebooks">Notebooks</string>
+    <string name="team_discussions">Team Discussions</string>
+    <string name="settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contact_permission_denied_hint">Unite uses your contacts only for \'Live Sessions\' and \'Note Sharing\' which are the app\'s core features. Please allow access to your contacts, we value your privacy.</string>
+    <string name="allow_access">Allow Access</string>
+    <string name="invite">INVITE</string>
+    <string name="textview">TextView</string>
+    <string name="david_bakthakumar">David Bakthakumar</string>
+    <string name="prompt_empty_contacts">You don\'t seem to have any Contacts, or please disable the permission manager that is not allowing Scribe to read your contacts.</string>
+    <string name="your_friends_on_scribe">Your Friends On Unite</string>
+    <string name="title_activity_sample">SampleActivity</string>
+    <string name="pin">Pin</string>
+    <string name="remind">Remind</string>
+    <string name="archive">Archive</string>
+    <string name="please_wait_we_re_almost_there">Please Wait. We\'re loading your contacts. Just hang in there.</string>
+    <string name="retry">Retry</string>
+    <string name="user">User</string>
+    <string name="button.finish">Finish</string>
+    <string name="button.next">Next</string>
+    <string name="button.skip">Skip</string>
+    <string name="title_activity_chat">Your Friend</string>
+    <string name="whats_up">Whats up</string>
+
+
+</resources>

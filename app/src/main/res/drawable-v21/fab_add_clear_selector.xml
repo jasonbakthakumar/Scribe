@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/pressed_state" android:drawable="@drawable/ic_close_white_24dp" android:state_selected="true" />
+    <item android:id="@+id/default_state" android:drawable="@drawable/ic_add_white_24dp" />
+
+    <transition android:fromId="@id/default_state" android:toId="@+id/pressed_state">
+        <animation-list>
+            <item android:duration="15" android:drawable="@drawable/ic_add_white_24dp"/>
+            <item android:duration="15" android:drawable="@drawable/ic_trans_1"/>
+            <item android:duration="15" android:drawable="@drawable/ic_trans_2"/>
+            <item android:duration="15" android:drawable="@drawable/ic_trans_3"/>
+            <item android:duration="15" android:drawable="@drawable/ic_trans_4"/>
+            <item android:duration="15" android:drawable="@drawable/ic_trans_5"/>
+            <item android:duration="15" android:drawable="@drawable/ic_trans_6"/>
+            <item android:duration="15" android:drawable="@drawable/ic_trans_7"/>
+            <item android:duration="15" android:drawable="@drawable/ic_trans_8"/>
+            <item android:duration="15" android:drawable="@drawable/ic_close_white_24dp"/>
+        </animation-list>
+    </transition>
+
+
+    <transition android:fromId="@id/pressed_state" android:toId="@+id/default_state">
+        <animation-list>
+            <item android:duration="15" android:drawable="@drawable/ic_close_white_24dp"/>
+            <item android:duration="15" android:drawable="@drawable/ic_trans_8"/>
+            <item android:duration="15" android:drawable="@drawable/ic_trans_7"/>
+            <item android:duration="15" android:drawable="@drawable/ic_trans_6"/>
+            <item android:duration="15" android:drawable="@drawable/ic_trans_5"/>
+            <item android:duration="15" android:drawable="@drawable/ic_trans_4"/>
+            <item android:duration="15" android:drawable="@drawable/ic_trans_3"/>
+            <item android:duration="15" android:drawable="@drawable/ic_trans_2"/>
+            <item android:duration="15" android:drawable="@drawable/ic_trans_1"/>
+            <item android:duration="15" android:drawable="@drawable/ic_add_white_24dp"/>
+        </animation-list>
+    </transition>
+</animated-selector>

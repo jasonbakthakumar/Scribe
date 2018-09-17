@@ -1,0 +1,40 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="keyline_1">16dp</dimen>
+    <dimen name="keyline_1_minus_8dp">8dp</dimen>
+
+    <!-- Needed as the impl of CardView in pre-Lollipop unnecessarily adds 16 dp to the top and bottom -->
+    <dimen name="fab_menu_item_margin_top">-16dp</dimen>
+    <!-- CoordinatorLayout adds to the margins of the FAB, official bug: 'Issue 176096:
+    Using CoordinatorLayout view anchors will cause margins to be ignored' -->
+    <dimen name="coordinator_layout_offset">12dp</dimen>
+    <!-- Needed as another side effect of the bug above -->
+    <dimen name="fab_margin_def">0dp</dimen>
+    <!-- Needed in order to align vertically the fabs -->
+    <dimen name="mini_fab_margin_left">@dimen/keyline_1_minus_8dp</dimen>
+    <dimen name="mini_fab_margin_top">0dp</dimen>
+    <dimen name="mini_fab_margin_right">@dimen/keyline_1_minus_8dp</dimen>
+    <dimen name="mini_fab_margin_bottom">0dp</dimen>
+
+    <dimen name="fastscroll_bubble_radius">44dp</dimen>
+    <dimen name="fastscroll_bubble_size">88dp</dimen>
+    <dimen name="fastscroll_bubble_textsize">48sp</dimen>
+
+    <dimen name="fastscroll_handle_height">40dp</dimen>
+    <dimen name="fastscroll_handle_width">4dp</dimen>
+    <dimen name="fastscroll_handle_radius">2dp</dimen>
+
+    <dimen name="fastscroll_track_width">1dp</dimen>
+
+    <dimen name="fastscroll_scrollbar_padding">8dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="indicator_size">8dp</dimen>
+
+    <dimen name="margin_between_title_and_description">8dp</dimen>
+    <dimen name="text_section_min_height">150dp</dimen>
+
+
+</resources>

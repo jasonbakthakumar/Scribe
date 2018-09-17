@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home_fragment"
+            android:checked="true"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/nav_notes_fragment"
+            android:icon="@drawable/ic_note_black_24dp"
+            android:title="@string/notes" />
+
+        <item
+            android:id="@+id/nav_todo_fragment"
+            android:icon="@drawable/ic_toc_black_24dp"
+            android:title="@string/to_do" />
+
+        <item
+            android:id="@+id/nav_live_session"
+            android:title="@string/live_session"
+            android:icon="@drawable/ic_live_session"/>
+
+        <item
+            android:id="@+id/nav_notebooks"
+            android:title="@string/notebooks"
+            android:icon="@drawable/ic_import_contacts_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_discussions"
+            android:title="@string/team_discussions"
+            android:titleCondensed="Discussions"
+            android:icon="@drawable/ic_forum_black_24dp"/>
+
+
+        <item android:title="@string/settings">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:icon="@drawable/ic_settings_black_24dp"
+                        android:title="@string/settings"
+                        android:id="@+id/nav_settings"/>
+                </group>
+            </menu>
+        </item>
+
+
+
+    </group>
+
+
+</menu>

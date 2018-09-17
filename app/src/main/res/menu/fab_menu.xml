@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_live_session"
+        android:icon="@drawable/ic_live_session"
+        android:orderInCategory="0"
+        android:title="@string/live_session" />
+
+    <item
+        android:id="@+id/action_notebooks"
+        android:icon="@drawable/ic_import_contacts_black_24dp"
+        android:orderInCategory="1"
+        android:title="@string/notebooks"/>
+
+    <item
+        android:id="@+id/action_todo"
+        android:icon="@drawable/ic_toc_black_24dp"
+        android:orderInCategory="2"
+        android:title="@string/to_do" />
+
+    <item
+        android:id="@+id/action_note"
+        android:icon="@drawable/ic_note_add_black_24dp"
+        android:orderInCategory="3"
+        android:title="@string/note"/>
+</menu>
